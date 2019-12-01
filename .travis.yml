@@ -3,6 +3,4 @@ python: 3.7
 dist: xenial
 sudo: true
 script:
-    - pip install pipenv
-    - pipenv install --ignore-pipfile
-    - pipenv run pytest
+    - pytest -vs test_test.py

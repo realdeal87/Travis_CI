@@ -22,13 +22,13 @@ def browser_stack(request):
     return driver
 
 
-def test_test1(driver):
+def test_test1(browser_stack):
     pass
 
 
-def test_test2(driver):
+def test_test2(browser_stack):
     pass
 
 
-def test_test3(driver):
+def test_test3(browser_stack):
     pass

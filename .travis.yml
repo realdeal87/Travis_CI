@@ -3,7 +3,5 @@ python: 3.7
 dist: xenial
 sudo: true
 script:
-    - python3 -m venv env
-    - source env/bin/activate
-    - pip3 install selenium
+    - pip install selenium
     - pytest -vs test_test.py
